@@ -38,6 +38,6 @@ public class AppTest {
     public void simpleTest1() {
         driver.navigate().to("http://goodv1.us-west-2.elasticbeanstalk.com/Roo/");
         Assert.assertEquals(driver.findElement(By.xpath("/html/body/a")).getText(), "RunRestApp");
-		Assert.assertEquals(driver.findElement(By.xpath("/html/body/h1")).getText(), "RestServiceDeploy");
+		Assert.assertEquals(driver.findElement(By.xpath("/html/body/h1")).getText(), "RestServiceDeploy!");
     }
 }
