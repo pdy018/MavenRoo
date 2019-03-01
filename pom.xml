@@ -31,6 +31,7 @@
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
           <warName>Roo</warName>
+          <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
         </configuration>
       </plugin>
     </plugins>
